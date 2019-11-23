@@ -1,2 +1,1 @@
-# playground
-Testing repo for deployment in Azure
+# Using this repo to serve as a repository for Leetcode solutions
