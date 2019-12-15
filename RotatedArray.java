@@ -27,7 +27,7 @@ public int search(int[] nums, int target) {
             else {
             	//if we are here, then we know that the element in the mid is less than the element at zero, which means we are past the pivot point
             	//look for target here, the normal binary search way
-                if(target <= nums[mid] && nums[mid] < target) left = mid + 1;
+                if(target <= nums[right] && nums[mid] < target) left = mid + 1;
                 else right = mid -1;
             }
         }
